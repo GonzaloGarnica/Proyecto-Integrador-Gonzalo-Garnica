@@ -1,0 +1,114 @@
+<section class="form-section" id="form-page">
+            
+    <form action="/api/products" method="post" id="form-alta-producto">
+        <input type="hidden" id="id" name="id">
+        <label for="name">Nombre:</label>
+        <div class="form-input_name">
+            <input id="name" name="name" autofocus maxlength="30">
+        </div>
+        <label for="price">Precio:</label>
+        <div class="form-input_price" id="price" name="price">
+            <label for="price">Precio</label>
+            <input type="checkbox" name="cathegory" value="price">
+            <label for="$5000">$5000</label>
+            <input type="checkbox" name="cathegory" value="$5000">
+            <label for="$8000"> 8000</label>
+            <input type="checkbox" name="cathegory" value="$8000">
+            <label for="$12000">$12000</label>
+            <input type="checkbox" name="cathegory" value="$12000">
+            <label for="+12000">+12000</label>
+            <input type="checkbox" name="cathegory" value="+12000">            
+        </div>
+        <div class="form-input_stock" id="stock">
+            <label for="stock">Stock </label>
+            <input type="number" name="stock" id="stock" pattern="^[0-9]*$" >
+        </div>
+        <label for="brand">Marca:</label>
+        <div class="form-input_brand">
+            <input id="brand" autofocus" maxlength="40">
+        </div>
+        <label for="cathegory">Categoría:</label>
+        <div class="form-input_cathegory" id="cathegory">
+            <label for="Muñecos">Muñecos</label>
+            <input type="checkbox" name="cathegory" value="Muñecos">
+            <label for="Figuras">Figuras</label>
+            <input type="checkbox" name="cathegory" value="Figuras">
+            <label for="Juegos de mesa"> Juegos de mesa</label>
+            <input type="checkbox" name="cathegory" value="Juegos de mesa">
+            <label for="Juguetes para armar">Juguetes para armar</label>
+            <input type="checkbox" name="cathegory" value="Juguetes para armar">
+            <label for="Otros">Otros</label>
+            <input type="checkbox" name="cathegory" value="Otros">            
+        </div>
+        <label for="descripcion">Descripción corta:</label>
+        <div class="form-input_description">
+            <textarea rows="2" cols="15" maxlength="80">
+   
+            </textarea>
+        </div>
+        <label for="descripcion">Descripción larga:</label>
+        <div class="form-input_description-long">
+            <textarea rows="2" cols="22" maxlength="2000">
+   
+            </textarea>
+        </div>
+        <label for="delivery">Envío sin cargo:</label>
+        <div class="form-input_delivery">
+            <label for="cities">Elige tu punto de envio:</label>
+                <input list="cities" name="city" id="delivery">
+                <datalist id="cities">
+                <option value="CABA">
+                <option value="Almirante Brown">
+                <option value="Avellaneda">
+                <option value="Berazategui">
+                <option value="Esteban Echeverría">
+                <option value="Ezeiza">
+                <option value="Florencio Varela">
+                <option value="General San Martín">
+                <option value="Hurlingham">
+                <option value="Ituzaingó">
+                <option value="José C. Paz">
+                <option value="La Matanza">
+                <option value="Lanús">
+                <option value="Lomas de Zamora">
+                <option value="Malvinas Argentinas">
+                <option value="Merlo">
+                <option value="Moreno">
+                <option value="Morón">
+                <option value="Quilmes">
+                <option value="San Fernando">
+                <option value="San Isidro">
+                <option value="San Miguek">
+                <option value="Tigre">
+                <option value="Tres de Febrero">
+                <option value="Vicente López">     
+                </datalist>
+        </div>
+        <label for="age-from">Edad desde:</label>
+        <div class="form-input_age-from">
+            <input type="text" id="ageFrom" pattern="^[+]?([0-9]+(?:[\.][0-9]*)?|\.[0-9]+)$">
+
+        </div>
+        <label for="age-to">Edad hasta:</label>
+        <div class="form-input_age-to">
+            <input type="text" id="ageTo" pattern="^[+]?([0-9]+(?:[\.][0-9]*)?|\.[0-9]+)$">
+        </div>
+        <label for="image">Foto:</label>
+        <div class="form-input_image">
+            <input type="file" id="image">
+        </div>
+
+        <div class="form-input_terms">
+            <label for="terms">Acepto términos y condiciones*</label>
+            <input type="checkbox" name="terms" id="terms">
+        </div>
+
+       <button type="submit" id="submitButton">Dar el alta</button>
+
+
+    </form>
+   
+   
+</section>
+
+

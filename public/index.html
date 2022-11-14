@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/795d2fcd7f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+    <input type="checkbox" id="main-nav-toggle" class="main-nav-toggle">
+    <header class="main-header">
+        <div class="main-header__logo-container">
+             <img src="img/Logo web.png" alt="Logo" >
+        </div>
+        <div class="main-header__search-form-container">
+            Form
+                <div class="search-form-container__search-bar">
+                    <button type="submit" class="search-bar__search-button">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                   <input type="text" class="search-bar__search-term" placeholder="Buscar">
+                 </div>
+        </div>
+        
+        <div class="main-header__cart-button-container">
+            <a href="#modal-opened" class="link-1" id="modal-closed">
+                <img src="img/shopping-bag-2001.png" alt="Carrito">
+                <div id="cartAmount" class="cart-amount"> 0</div>
+            </a>
+                <div class="modal-container" id="modal-opened">
+                  <div class="modal" id="modal">
+                    <div class="cart">
+                        <i class="bi bi-cart2"></i>
+                        <div id="cartAmount" class="cartAmount"></div>
+                      </div>
+                    <div id="label" class="text-center"></div>
+                    <div class="shopping-cart" id="shopping-cart"></div>
+                
+                
+                    <a href="#modal-closed" class="link-2"></a>
+                
+                  </div>
+                </div>
+            
+        </div>
+       
+        
+
+        <div class="main-header__hamburger-button-container">
+            <label class="hamburger-button" for="main-nav-toggle" title="Expandir barra de navegación">
+            <span class="hamburger-button__top-bread"></span>
+            <span class="hamburger-button__meat"></span>
+            <span class="hamburger-button__bottom-bread"></span>
+        </label>
+        </div>
+        <div class="main-header__main-nav-container">
+            <nav class="main-nav">
+                <ul class="main-nav__list">
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#/inicio">Inicio</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#/alta">Alta</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#/contacto">Contacto</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#/nosotros">Nosotros</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <main></main>
+
+    <footer class="main-footer">
+        <div class="main-footer__about">
+            <h1>Visitanos</h1>
+            <p> Av. Siempreviva 123 casi calle Walabi</p>
+            <p>Villa Crespo</p>
+        </div>
+        <div class="main-footer__links">
+            <h1>Redes</h1>
+            <a href="https://es-la.facebook.com/"> <i class="fa fa-facebook-official" aria-hidden="true"></i>Nuestro Facebook</a>
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i> Nuestro Instagram</a>
+        </div>
+        <img src="img/astronauta.jpg" alt="">
+    </footer>
+
+    <script src="js/vendor/handlebars.min-v4.7.7.js"></script>
+
+    <script src="js/main.js" type="module"></script>
+    <script src="js/cards.js" type="module"></script>
+    <script src="js/shopping-cart.js" type="module"></script>
+  
+
+
+</body>
+</html>

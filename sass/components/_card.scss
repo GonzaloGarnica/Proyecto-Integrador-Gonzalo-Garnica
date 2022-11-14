@@ -1,0 +1,41 @@
+.card {
+    width: 200px;
+    max-width: 300px;
+    flex-grow: 1;
+    box-shadow:
+        0 1px 5px rgba(0, 0, 0, .2),
+        0 0 3px rgba(0, 0, 0, .4)
+    ;
+    border-radius: 5px 5px 0 0;
+    /* transition: background-color .3s, border-width 2s; */
+    transition: all .2s;
+
+    &:hover {
+        /* background-color: yellow; */
+        /* width: 240px; */
+        /* transform: rotateZ(3deg) scale(1.1); */
+        transform: scale(1.05);
+        transform-origin: bottom;
+    }
+
+    &:nth-child(5n+1) {
+        background-color: #d4afb9;
+    }
+    
+    &:nth-child(5n+2) {
+        background-color: #d1cfe2;
+    }
+    
+    &:nth-child(5n+3) {
+        background-color: #9cadce;
+    }
+    
+    &:nth-child(5n+4) {
+        background-color: #7ec4cf;
+    }
+    
+    &:nth-child(5n+5) {
+        background-color: #52b2cf;
+    }
+
+}

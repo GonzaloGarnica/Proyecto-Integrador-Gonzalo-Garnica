@@ -1,0 +1,65 @@
+[
+	{
+    id:"Barbie",
+    name:"Barbie figura con articulaciones",
+    price:18000,
+    desc:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero explica.",
+    img:"img/Productos/muñeca-barbie.jpg"
+},
+{
+    id:"MaxSteel",
+    name:"Max Steel comando acuático",
+    price:15000,
+    desc:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero explica.",
+    img:"img/Productos/muñeco-max-steel.jpg"
+},
+{
+    id:"PeluchedePikachu",
+    name:"Peluche de Pikachu 40cm",
+    price:22000,
+    desc:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero explica.",
+    img:"img/Productos/peluche-pikachu_40cm.jpg"
+},
+{
+    id:"BRATZChloe",
+    name:"BRATZ Chloe con accesorios",
+    price:24000,
+    desc:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero explica.",
+    img:"img/Productos/muñeca-bratz-chloe.jpg"
+},
+{
+    id:"LEGOcity",
+    name:"LEGO city set plaza principal",
+    price:30000,
+    desc:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero explica.",
+    img:"img/Productos/set-lego-city.jpg"
+},
+{
+    id:"Monopoly",
+    name:"Monopoly juego de mesa en familia",
+    price:8.800,
+    desc:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero explica.",
+    img:"img/Productos/juego_de_mesa-monopoly.jpg"
+},
+{
+    id:"EspadaMinecraft",
+    name:"Espada Minecraft 30 cm de goma eva",
+    price:7500,
+    desc:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero explica.",
+    img:"img/Productos/espada_minecraft-30cm.jpg"
+},
+{
+    id:"NarutoShippuden",
+    name:"Figura Naruto Shippuden edición limitada 15cm",
+    price:9000,
+    desc:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero explica.",
+    img:"img/Productos/figura-naruto_shippuden-rasengan.jpg"
+},
+{
+    id:"AmongUs",
+    name:"Peluche de Among Us de 15cm",
+    price:3000,
+    desc:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero explica.",
+    img:"img/Productos/peluche-amongus.jpg"
+}
+]
